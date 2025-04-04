@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import { EdgeProps, getBezierPath, EdgeLabelRenderer } from "@xyflow/react";
 
 const DataFlowEdge: FC<EdgeProps> = ({

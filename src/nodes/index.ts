@@ -39,8 +39,14 @@ export const useExecutionData = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
+        // Use the proper base URL for GitHub Pages
         const baseUrl = getBaseUrl();
-        const response = await fetch(`${baseUrl}/data.json`);
+
+        // Log the URL we're attempting to fetch for debugging
+        const dataUrl = `${baseUrl}data.json`;
+        console.log("Fetching data from:", dataUrl);
+
+        const response = await fetch(dataUrl);
 
         if (!response.ok) {
           throw new Error(
