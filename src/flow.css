@@ -1,0 +1,61 @@
+.execution-node {
+  border-radius: 8px;
+  padding: 10px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  min-width: 200px;
+}
+
+.execution-node:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.node-title {
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.node-id {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.node-status {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.node-success {
+  color: #28a745;
+}
+
+.node-failed {
+  color: #dc3545;
+}
+
+.node-unknown {
+  color: #ffc107;
+}
+
+.node-data {
+  font-size: 12px;
+}
+
+.data-instances {
+  margin-top: 3px;
+}
+
+.data-label {
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.data-type {
+  font-style: italic;
+  color: #6c757d;
+} 
